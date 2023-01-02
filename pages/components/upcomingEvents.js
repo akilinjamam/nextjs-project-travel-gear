@@ -26,7 +26,9 @@ const UpcomingEvents = () => {
         fetch("http://localhost:3000/api/blogs")
             .then(res => res.json())
             .then(res => setData(res))
-    }, [])
+    }, [data])
+
+
 
     console.log(data)
 
@@ -38,97 +40,30 @@ const UpcomingEvents = () => {
                 <button id='btn-left' className={events.left}><i class={`${events.uil} uil-arrow-left`}></i></button>
                 <section id='slider' className={events.eventss}>
 
-                    <div className={`${events.eventsContainer} thumbnail`}>
+                    {
+                        data.map(d =>
+                            <div key={d.id} className={`${events.eventsContainer} thumbnail`}>
 
-                        <div className={events.eventsImage}>
-                            <Image src={one} width={300} height={200} alt=""></Image>
-                        </div>
+                                <div className={events.eventsImage}>
+                                    <Image src={one} width={300} height={200} alt="www.travelmate.com.bd"></Image>
+                                </div>
 
-                        <div className={events.eventsDetail}>
-                            <br />
-                            <p> 16-feb/ 23</p>
-                            <h4>safari park tour</h4>
-                            <p>Bangabandhu sheikh Mujib safari part, gazipur safari park road,sreepur Bangladesh</p>
+                                <div className={events.eventsDetail}>
+                                    <br />
+                                    <p> {d.date}</p>
+                                    <h4>{d.title}</h4>
+                                    <p>{d.shorDes}</p>
 
-                            <div className={events.button}>
-                                <button className={events.buttonOne}><i class="uil uil-share-alt"></i></button>
-                                <button className={events.buttonTwo}>Details</button>
+                                    <div className={events.button}>
+                                        <button className={events.buttonOne}><i class="uil uil-share-alt"></i></button>
+                                        <button className={events.buttonTwo}>Details</button>
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
+                        )
+                    }
 
-                    </div>
-                    <div className={`${events.eventsContainer} thumbnail`}>
-                        <div className={events.eventsImage}>
-                            <Image src={one} width={300} height={200} alt=""></Image>
-                        </div>
-
-                        <div className={events.eventsDetail}>
-                            <br />
-                            <p> 16-feb/ 23</p>
-                            <h4>safari park tour</h4>
-                            <p>Bangabandhu sheikh Mujib safari part, gazipur safari park road,sreepur Bangladesh</p>
-
-                            <div className={events.button}>
-                                <button className={events.buttonOne}><i class="uil uil-share-alt"></i></button>
-                                <button className={events.buttonTwo}>Details</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className={`${events.eventsContainer} thumbnail`}>
-                        <div className={events.eventsImage}>
-                            <Image src={one} width={300} height={200} alt=""></Image>
-                        </div>
-
-                        <div className={events.eventsDetail}>
-                            <br />
-                            <p> 16-feb/ 23</p>
-                            <h4>safari park tour</h4>
-                            <p>Bangabandhu sheikh Mujib safari part, gazipur safari park road,sreepur Bangladesh</p>
-
-                            <div className={events.button}>
-                                <button className={events.buttonOne}><i class="uil uil-share-alt"></i></button>
-                                <button className={events.buttonTwo}>Details</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className={`${events.eventsContainer} thumbnail`}>
-                        <div className={events.eventsImage}>
-                            <Image src={one} width={300} height={200} alt=""></Image>
-                        </div>
-
-                        <div className={events.eventsDetail}>
-                            <br />
-                            <p> 16-feb/ 23</p>
-                            <h4>safari park tour</h4>
-                            <p>Bangabandhu sheikh Mujib safari part, gazipur safari park road,sreepur Bangladesh</p>
-
-                            <div className={events.button}>
-                                <button className={events.buttonOne}><i class="uil uil-share-alt"></i></button>
-                                <button className={events.buttonTwo}>Details</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className={`${events.eventsContainer} thumbnail`}>
-                        <div className={events.eventsImage}>
-                            <Image src={one} width={300} height={200} alt=""></Image>
-                        </div>
-
-                        <div className={events.eventsDetail}>
-                            <br />
-                            <p> 16-feb/ 23</p>
-                            <h4>safari park tour</h4>
-                            <p>Bangabandhu sheikh Mujib safari part, gazipur safari park road,sreepur Bangladesh</p>
-
-                            <div className={events.button}>
-                                <button className={events.buttonOne}><i class="uil uil-share-alt"></i></button>
-                                <button className={events.buttonTwo}>Details</button>
-                            </div>
-                        </div>
-
-                    </div>
                 </section>
                 <button id='btn-right' className={events.right}><i class={`${events.uil} uil-arrow-right`}></i></button>
             </div>
@@ -145,6 +80,10 @@ const UpcomingEvents = () => {
 
 
 export default UpcomingEvents;
+
+
+
+
 
 
 

@@ -1,27 +1,167 @@
 [
     {
         "id": 1,
-        "name": "abdul Ali",
-        "age": 29
+        "tourDate": "06 Jan 2023",
+        "img": "https://www.travelmate.com.bd/wp-content/uploads/2021/11/Bangabandhu_Safari_FB.png",
+        "title": "Safari Park Tour",
+        "shorDes": "Bangabandhu Sheikh Mujib Safari Park, Gazipur, Safari Park Road, Sreepur, Bangladesh",
+        "longDes": "Bangabandhu Sheikh Mujib Safari Park is a trendy wildlife safari park at Gazipur in Bangladesh. It is located 52 kilometers from Dhaka city. Our well-behaved, English-speaking tour guide will be your guide for the whole day. He will pick you from selected places and drop you at the same places at the end of the trip. In Gazipur safari park, you can see several animals and birds like zebras, deer, bison, Macaws, hornbills, peacocks in addition to the carnivores like royal Bengal Tigers, white lions, elephants, Sambars, Maya deer, Chitra deer, monkeys, Hanuman, bear, gazelles, crocodiles during this ride. The Bangabandhu safari park also has a national history museum, an aquarium, a duck pond and a small butterfly enclosure open to visitors.",
+        "time": "7:00 AM - 5:00 PM",
+        "cost": "BDT 1,200.00",
+        "includes": {
+            "transport": "transport",
+            "breakfast": "breakfast",
+            "lunch": "experience guid",
+            "entrenceFee": "entrence fee"
+        },
+        "depAndRet": {
+            "title:": "Our guide will pick up you from selected places in Dhaka City",
+            "startingPoint": "Block C, Banasree, Rampura, Dhaka",
+            "endingpoint": "Block C, Banasree, Rampura, Dhaka",
+            "departureTime": " 7:00 AM from Dhaka (sharp)",
+            "returnTime": " 5 PM from Safari Park"
+        },
+        "additionals": {
+            "info1": "You will receive a booking confirmation",
+            "info2": "Not wheelchair accessible ",
+            "info3": "Most of the travelers can participate ",
+            "info4": "This is a private/group tour/activity operated by Travel Mate",
+            "info5": "Payment Options: bKash/Bank/Visa/MasterCard/Cash"
+        },
+        "childPolicy": "Free up to 3 years with parents without a seat and food.",
+        "cancelPol": "You can cancel before 72 hours of the tour for a full refund without a bank/payment fee and service cost.",
+        "contacts": ""
     },
     {
         "id": 2,
-        "name": "khaled",
-        "age": 29
+        "tourDate": "06 Jan 2023",
+        "img": "https://www.travelmate.com.bd/wp-content/uploads/2022/07/travel-padma-bridge790x503.png",
+        "title": "padma bridge Day Tour",
+        "shorDes": "Bangabandhu Sheikh Mujib Safari Park, Gazipur, Safari Park Road, Sreepur, Bangladesh",
+        "longDes": "Bangabandhu Sheikh Mujib Safari Park is a trendy wildlife safari park at Gazipur in Bangladesh. It is located 52 kilometers from Dhaka city. Our well-behaved, English-speaking tour guide will be your guide for the whole day. He will pick you from selected places and drop you at the same places at the end of the trip. In Gazipur safari park, you can see several animals and birds like zebras, deer, bison, Macaws, hornbills, peacocks in addition to the carnivores like royal Bengal Tigers, white lions, elephants, Sambars, Maya deer, Chitra deer, monkeys, Hanuman, bear, gazelles, crocodiles during this ride. The Bangabandhu safari park also has a national history museum, an aquarium, a duck pond and a small butterfly enclosure open to visitors.",
+        "time": "7:00 AM - 5:00 PM",
+        "cost": "BDT 1,200.00",
+        "includes": {
+            "transport": "transport",
+            "breakfast": "breakfast",
+            "lunch": "experience guid",
+            "entrenceFee": "entrence fee"
+        },
+        "depAndRet": {
+            "title:": "Our guide will pick up you from selected places in Dhaka City",
+            "startingPoint": "Block C, Banasree, Rampura, Dhaka",
+            "endingpoint": "Block C, Banasree, Rampura, Dhaka",
+            "departureTime": " 7:00 AM from Dhaka (sharp)",
+            "returnTime": " 5 PM from Safari Park"
+        },
+        "additionals": {
+            "info1": "You will receive a booking confirmation",
+            "info2": "Not wheelchair accessible ",
+            "info3": "Most of the travelers can participate ",
+            "info4": "This is a private/group tour/activity operated by Travel Mate",
+            "info5": "Payment Options: bKash/Bank/Visa/MasterCard/Cash"
+        },
+        "childPolicy": "Free up to 3 years with parents without a seat and food.",
+        "cancelPol": "You can cancel before 72 hours of the tour for a full refund without a bank/payment fee and service cost.",
+        "contacts": ""
     },
     {
         "id": 3,
-        "name": "robin",
-        "age": 29
+        "tourDate": "06 Jan 2023",
+        "img": "https://www.amazingtoursbd.com/tour_image/16071459111b.png",
+        "title": "Safari Park Tour",
+        "shorDes": "Bangabandhu Sheikh Mujib Safari Park, Gazipur, Safari Park Road, Sreepur, Bangladesh",
+        "longDes": "Bangabandhu Sheikh Mujib Safari Park is a trendy wildlife safari park at Gazipur in Bangladesh. It is located 52 kilometers from Dhaka city. Our well-behaved, English-speaking tour guide will be your guide for the whole day. He will pick you from selected places and drop you at the same places at the end of the trip. In Gazipur safari park, you can see several animals and birds like zebras, deer, bison, Macaws, hornbills, peacocks in addition to the carnivores like royal Bengal Tigers, white lions, elephants, Sambars, Maya deer, Chitra deer, monkeys, Hanuman, bear, gazelles, crocodiles during this ride. The Bangabandhu safari park also has a national history museum, an aquarium, a duck pond and a small butterfly enclosure open to visitors.",
+        "time": "7:00 AM - 5:00 PM",
+        "cost": "BDT 1,200.00",
+        "includes": {
+            "transport": "transport",
+            "breakfast": "breakfast",
+            "lunch": "experience guid",
+            "entrenceFee": "entrence fee"
+        },
+        "depAndRet": {
+            "title:": "Our guide will pick up you from selected places in Dhaka City",
+            "startingPoint": "Block C, Banasree, Rampura, Dhaka",
+            "endingpoint": "Block C, Banasree, Rampura, Dhaka",
+            "departureTime": " 7:00 AM from Dhaka (sharp)",
+            "returnTime": " 5 PM from Safari Park"
+        },
+        "additionals": {
+            "info1": "You will receive a booking confirmation",
+            "info2": "Not wheelchair accessible ",
+            "info3": "Most of the travelers can participate ",
+            "info4": "This is a private/group tour/activity operated by Travel Mate",
+            "info5": "Payment Options: bKash/Bank/Visa/MasterCard/Cash"
+        },
+        "childPolicy": "Free up to 3 years with parents without a seat and food.",
+        "cancelPol": "You can cancel before 72 hours of the tour for a full refund without a bank/payment fee and service cost.",
+        "contacts": ""
     },
     {
         "id": 4,
-        "name": "shakur",
-        "age": 29
+        "tourDate": "06 Jan 2023",
+        "img": "https://www.travelmate.com.bd/wp-content/uploads/2022/05/Sitakunda-Day-Tour.png",
+        "title": "Sitakundo day tour from dhaka",
+        "shorDes": "Bangabandhu Sheikh Mujib Safari Park, Gazipur, Safari Park Road, Sreepur, Bangladesh",
+        "longDes": "Bangabandhu Sheikh Mujib Safari Park is a trendy wildlife safari park at Gazipur in Bangladesh. It is located 52 kilometers from Dhaka city. Our well-behaved, English-speaking tour guide will be your guide for the whole day. He will pick you from selected places and drop you at the same places at the end of the trip. In Gazipur safari park, you can see several animals and birds like zebras, deer, bison, Macaws, hornbills, peacocks in addition to the carnivores like royal Bengal Tigers, white lions, elephants, Sambars, Maya deer, Chitra deer, monkeys, Hanuman, bear, gazelles, crocodiles during this ride. The Bangabandhu safari park also has a national history museum, an aquarium, a duck pond and a small butterfly enclosure open to visitors.",
+        "time": "7:00 AM - 5:00 PM",
+        "cost": "BDT 1,200.00",
+        "includes": {
+            "transport": "transport",
+            "breakfast": "breakfast",
+            "lunch": "experience guid",
+            "entrenceFee": "entrence fee"
+        },
+        "depAndRet": {
+            "title:": "Our guide will pick up you from selected places in Dhaka City",
+            "startingPoint": "Block C, Banasree, Rampura, Dhaka",
+            "endingpoint": "Block C, Banasree, Rampura, Dhaka",
+            "departureTime": " 7:00 AM from Dhaka (sharp)",
+            "returnTime": " 5 PM from Safari Park"
+        },
+        "additionals": {
+            "info1": "You will receive a booking confirmation",
+            "info2": "Not wheelchair accessible ",
+            "info3": "Most of the travelers can participate ",
+            "info4": "This is a private/group tour/activity operated by Travel Mate",
+            "info5": "Payment Options: bKash/Bank/Visa/MasterCard/Cash"
+        },
+        "childPolicy": "Free up to 3 years with parents without a seat and food.",
+        "cancelPol": "You can cancel before 72 hours of the tour for a full refund without a bank/payment fee and service cost.",
+        "contacts": ""
     },
     {
         "id": 5,
-        "name": "shohel",
-        "age": 29
+        "tourDate": "06 Jan 2023",
+        "img": "https://i.ytimg.com/vi/dxSkDoaUaFg/maxresdefault.png",
+        "title": "Sikkim tour",
+        "shorDes": "Bangabandhu Sheikh Mujib Safari Park, Gazipur, Safari Park Road, Sreepur, Bangladesh",
+        "longDes": "Bangabandhu Sheikh Mujib Safari Park is a trendy wildlife safari park at Gazipur in Bangladesh. It is located 52 kilometers from Dhaka city. Our well-behaved, English-speaking tour guide will be your guide for the whole day. He will pick you from selected places and drop you at the same places at the end of the trip. In Gazipur safari park, you can see several animals and birds like zebras, deer, bison, Macaws, hornbills, peacocks in addition to the carnivores like royal Bengal Tigers, white lions, elephants, Sambars, Maya deer, Chitra deer, monkeys, Hanuman, bear, gazelles, crocodiles during this ride. The Bangabandhu safari park also has a national history museum, an aquarium, a duck pond and a small butterfly enclosure open to visitors.",
+        "time": "7:00 AM - 5:00 PM",
+        "cost": "BDT 1,200.00",
+        "includes": {
+            "transport": "transport",
+            "breakfast": "breakfast",
+            "lunch": "experience guid",
+            "entrenceFee": "entrence fee"
+        },
+        "depAndRet": {
+            "title:": "Our guide will pick up you from selected places in Dhaka City",
+            "startingPoint": "Block C, Banasree, Rampura, Dhaka",
+            "endingpoint": "Block C, Banasree, Rampura, Dhaka",
+            "departureTime": " 7:00 AM from Dhaka (sharp)",
+            "returnTime": " 5 PM from Safari Park"
+        },
+        "additionals": {
+            "info1": "You will receive a booking confirmation",
+            "info2": "Not wheelchair accessible ",
+            "info3": "Most of the travelers can participate ",
+            "info4": "This is a private/group tour/activity operated by Travel Mate",
+            "info5": "Payment Options: bKash/Bank/Visa/MasterCard/Cash"
+        },
+        "childPolicy": "Free up to 3 years with parents without a seat and food.",
+        "cancelPol": "You can cancel before 72 hours of the tour for a full refund without a bank/payment fee and service cost.",
+        "contacts": ""
     }
 ]

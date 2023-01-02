@@ -1,12 +1,18 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useContext } from 'react';
 import signUp from '../../styles/signup.module.css';
 import img from '../../public/images/signup-form-img.png'
+import AppContext from '../../AppContext/AppContext';
 const SignUp = () => {
+
+    const context = useContext(AppContext);
+
+    let darkMode = context.darkMode
+
     return (
 
 
-        <div className={signUp.main}>
+        <div className={`${signUp.main} ${darkMode ? 'dark' : 'bg-light'} `}>
             <h2 style={{ color: 'orange' }}>SIGN UP</h2>
             <div className={signUp.container}>
                 <div className={signUp.imgPart}>

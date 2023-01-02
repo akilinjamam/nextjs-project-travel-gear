@@ -1,15 +1,17 @@
 import Head from 'next/head';
 
 import { Inter } from '@next/font/google'
+import AppContext from '../AppContext/AppContext';
 import styles from '../styles/Home.module.css';
 import Nav from './components/nav';
 import Banner from './components/banner';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import UpcomingEvents from './components/upcomingEvents';
 import LatestArticle from './components/latestArticle';
 import InboundsTour from './components/inboundsTour';
 import Footer from './components/footer';
-import SignUp from './components/signUp';
+
+
 
 
 
@@ -18,7 +20,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const [darkMode, setDarkMode] = useState(false);
+  const context = useContext(AppContext);
+
+  let darkMode = context.darkMode;
+
+
+
+
   return (
     <>
       <Head>
@@ -31,7 +39,7 @@ export default function Home() {
       </Head>
       <main className={darkMode ? "dark" : "light"} >
 
-        <Nav darkMode={darkMode} setDarkMode={setDarkMode}></Nav>
+        <Nav darkMode={darkMode}></Nav>
         <Banner></Banner>
         <UpcomingEvents></UpcomingEvents>
         <LatestArticle></LatestArticle>

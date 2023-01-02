@@ -1,15 +1,21 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import AppContext from '../../AppContext/AppContext';
 import logo from '../../public/images/Hidden-Key-West.png'
 
-const Nav = ({ darkMode, setDarkMode }) => {
+
+const Nav = () => {
 
 
+
+    let context = useContext(AppContext)
+
+    let darkMode = context.darkMode
 
     const modeControl = (event) => {
         event.preventDefault();
-        setDarkMode(!darkMode)
+        context.setDarkMode(!darkMode)
     }
     return (
         <div >
@@ -144,7 +150,8 @@ const Nav = ({ darkMode, setDarkMode }) => {
                             </ul>
                             <ul className='navbar-nav'>
                                 <li className='nav-item d-lg-flex'>
-                                    <Link className='nav-link fw-bold  text-light ' href="components/login">Login</Link>                                    <Link className='nav-link fw-bold  text-light ' href="components/signUp">Registar</Link>
+                                    <Link className='nav-link fw-bold  text-light ' href="components/login">Login</Link>
+                                    <Link className='nav-link fw-bold  text-light ' href="components/signUp">Registar</Link>
 
                                 </li>
                             </ul>
