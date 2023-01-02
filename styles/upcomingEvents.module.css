@@ -1,0 +1,89 @@
+/* 
+
+main-container = mainContainer
+main-slider = eventss
+thumbnail = eventsContainer
+
+*/
+
+
+.mainContainer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main h2 {
+    text-align: center;
+    color: palevioletred;
+}
+
+
+
+.eventsContainer {
+    width: 320px;
+    height: auto;
+    box-shadow: 0px 0px 18px 0px #888888;
+    padding: 10px;
+    margin: 0 35px;
+    transition: 2s;
+    transform: scale(.9);
+}
+
+.eventsContainer:hover {
+    transform: scale(1);
+}
+
+.eventsContainer p {
+    color: gray;
+}
+
+.eventsContainer h4 {
+    color: blue;
+}
+
+.eventss {
+    max-width: 1100px;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+
+}
+
+.left,
+.right {
+    border: none;
+    background: none;
+}
+
+.uil {
+    font-size: 28px;
+    color: blue;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonOne {
+    border: none;
+    font-size: 25px;
+    color: blue;
+    background: none;
+}
+
+.buttonTwo {
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

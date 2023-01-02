@@ -1,0 +1,65 @@
+.main {
+    max-width: 1000px;
+    margin: auto;
+
+
+}
+
+.title {
+    text-align: center;
+    color: palevioletred;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+
+.inbound {
+
+    width: 300px;
+    background-color: rgb(161, 170, 247);
+    margin: auto;
+
+}
+
+.imgpart {
+    position: relative;
+}
+
+.taka {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.star {
+    position: absolute;
+    top: 0;
+    background-color: yellow;
+    padding: 5px;
+}
+
+
+
+
+.detail {
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+.main {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: palevioletred;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.articles {
+    height: 300px;
+    width: 384px;
+    background-color: rgb(185, 185, 253);
+    margin: auto;
+
+}
+
+.articles .imgPart {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.detailPart p {
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}

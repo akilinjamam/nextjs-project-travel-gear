@@ -1,0 +1,56 @@
+.main {
+    width: 85%;
+    height: 750px;
+    border-bottom: 1px solid gray;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.detailPart {
+    width: 60%;
+}
+
+.detailPart .firstP {
+    text-align: justify;
+    color: gray;
+    font-size: 20px;
+}
+
+.uil {
+    font-size: 50px;
+    color: blueviolet;
+    margin: 10px;
+}
+
+.detailPart .secondP {
+    text-align: justify;
+    color: gray;
+    font-size: 16px;
+}
+
+.detailPart h2 {
+    text-align: center;
+    color: peru;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imagePart {
+    width: 35%;
+}
+
+.secondImg {
+    border: 1px solid gray;
+    padding: 10px;
+    height: 420px;
+}
+
+.secondImg h5 {
+    text-align: center;
+    margin-top: 40px;
+}
